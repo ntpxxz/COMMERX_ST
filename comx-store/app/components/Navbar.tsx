@@ -1,6 +1,6 @@
 "use client";
 
-import useCart from "@/lib/hooks/useCart";
+import useCart from "../lib/hooks/useCart";
 
 import { UserButton, useUser } from "@clerk/nextjs";
 import { CircleUserRound, Menu, Search, ShoppingCart } from "lucide-react";
