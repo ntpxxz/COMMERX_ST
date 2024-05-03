@@ -1,7 +1,7 @@
 import Gallery from "@/app/components/Gallery"
 import ProductCard from "@/app/components/ProductCard"
 import ProductInfo from "@/app/components/ProductInfo"
-import { getProductDetails, getRelatedProducts } from "@/lib/actions/actions"
+import { getProductDetails, getRelatedProducts } from "@/app/lib/action/actions"
 
 const ProductDetails = async ({ params }: { params: { productId: string }}) => {
   const productDetails = await getProductDetails(params.productId)
